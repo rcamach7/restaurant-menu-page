@@ -1,0 +1,155 @@
+html {
+    margin: 0 auto;
+    font-family: "Lucida Grande", serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("images/rest.png");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Styling For All Title Elements*/
+.titleContainer {
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 75px;
+}
+
+.navContainer {
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navLink {
+    padding: 10px;
+    color: white;
+
+    font-size: 25px;
+    list-style: none;
+
+    cursor: pointer;
+}
+
+.navLink:hover {
+    transform: scale(1.25);
+    border-top: white solid 1px;
+}
+
+/*Home Styling*/
+.homePage {
+    width: 700px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 1%;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customerHook, .closer {
+    font-size: 25px;
+    color: white;
+}
+
+.chefContainer {
+    width: 250px;
+    height: 300px;
+
+    border-radius: 50%;
+    background-image: url("images/chef.jpeg");
+    background-size: cover;
+}
+
+/*MenuPage Styling*/
+.menuPage {
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 1%;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.dishOne, .dishTwo {
+    width: 100%;
+    display: flex;
+    border-bottom: white dashed 1px;
+}
+
+.dishThree {
+    width: 100%;
+    display: flex;
+}
+
+.dishOneImage {
+    width: 200px;
+    height: 200px;
+
+    background-image: url("images/classic.png");
+    background-size: cover;
+}
+
+.dishTwoImage {
+    width: 200px;
+    height: 200px;
+
+    background-image: url("images/chicken.png");
+    background-size: cover;
+}
+
+.dishThreeImage {
+    width: 200px;
+    height: 200px;
+
+    background-image: url("images/half.png");
+    background-size: cover;
+}
+
+
+
+.ingredients {
+    color: white;
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+/*Footer*/
+/*.footer {*/
+/*    font-weight: bolder;*/
+/*    padding: 10px;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*}*/
+
+
+
+
+
