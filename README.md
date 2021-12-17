@@ -1,6 +1,6 @@
 # Restaurant Page
 
-A webpage based around creating a simple restaurant website which uses js to fully render the site's content.
+A webpage based around creating a simple restaurant page which uses js to fully render the site's content.
 
 ### Try It!
 
